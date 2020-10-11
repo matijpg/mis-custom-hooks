@@ -2,7 +2,7 @@
 
 Ejemplo de uso:
 ```
-   const { fomrValues, handleChange, reset } = useForm({
+   const [ fomrValues, handleChange, reset ] = useForm({
       {
       name: '',
       email: '',
@@ -13,6 +13,6 @@ Ejemplo de uso:
 ```
 
 ```
-   const { name, email, password } = formValues;
+const { name, email, password } = formValues;
 
 ```
