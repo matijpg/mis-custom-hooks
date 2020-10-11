@@ -12,7 +12,6 @@ export const useFetch = (url) => {
 
    });
 
-
    useEffect(() => {
 
       return () => {
